@@ -48,6 +48,9 @@ body {
     display: flex;
     align-items: center;
     gap: 0 65px;
+    font-weight: 400;
+    font-size: 18px;
+    margin-left: 85px;
 }
 
 .user-actions {
@@ -58,4 +61,37 @@ body {
 
 .user-actions__item-search {
     margin-left: 80px;
+}
+
+.top {
+    background-image: url(..//images/top.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+}
+
+.top__inner {
+    min-height: 500px;
+    color: #fff;
+    font-family: 'Cormorant', serif;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+}
+
+.top__title {
+    font-size: 60px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    max-width: 780px;
+    line-height: 1;
+}
+
+.top__text {
+    font-size: 24px;
+    margin-bottom: 48px;
+    max-width: 560px;
+    line-height: normal;
 }
