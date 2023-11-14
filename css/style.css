@@ -1,5 +1,57 @@
+html {
+    box-sizing: border-box;
+}
+
 *,
 *::after,
 *::before {
-    box-sizing: border-box;
+    box-sizing: inherit;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+ul{
+    list-style: none;
+}
+
+.container{
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+body{
+
+
+}
+
+.header__inner{
+    display: flex;
+    justify-content: space-between;
+    min-height: 140px;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.logo{
+    margin-bottom: 35px;
+}
+
+.menu__list{
+    display: flex;
+    align-items: center;
+    gap: 0 65px;
+}
+
+.user-actions{
+    display: flex;
+    align-items: center;
+    gap: 0 20px;
+}
+
+.user-actions__item-search{
+    margin-left: 80px;
 }
