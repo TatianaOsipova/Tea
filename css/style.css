@@ -17,6 +17,11 @@ ul {
     list-style: none;
 }
 
+button {
+    padding: 0;
+    border: none;
+}
+
 .container {
     max-width: 1240px;
     margin: 0 auto;
@@ -42,6 +47,20 @@ body {
 
 .logo {
     margin-bottom: 35px;
+}
+
+.menu__btn {
+    display: none;
+    width: 40px;
+    height: 20px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.menu__btn span {
+    background-color: #000;
+    height: 2px;
+    width: 100%;
 }
 
 .menu__list {
@@ -126,15 +145,41 @@ body {
         margin-left: 30px;
     }
 
-    .logo{
+    .logo {
         margin-bottom: 0;
     }
 
-    .header__inner{
+    .header__inner {
         min-height: auto;
     }
 
+    .blockquote__text {
+        margin: 120px 0 135px 0;       
+    }
+
 }
+
+@media(max-width: 860px) {
+    .menu {
+        order: -1;
+        margin-right: 0;
+    }
+
+    .logo{
+        margin: 0 auto;
+    }
+
+    .menu__list {
+        display: none;
+    }
+
+    .menu__btn {
+        display: flex;
+    }
+
+}
+
+
 
 @media(max-width: 768px) {}
 
