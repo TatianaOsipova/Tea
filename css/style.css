@@ -63,6 +63,8 @@ body {
     margin-left: 80px;
 }
 
+/* section top */
+
 .top {
     background-image: url(..//images/top.jpg);
     background-repeat: no-repeat;
@@ -104,3 +106,38 @@ body {
     max-width: 604px;
     margin: 150px auto;
 }
+
+
+
+
+
+/* adaptive */
+
+@media(max-width: 1000px) {
+    .menu {
+        margin-right: auto;
+    }
+
+    .menu__list {
+        margin-left: 60px;
+    }
+
+    .user-actions__item-search {
+        margin-left: 30px;
+    }
+
+    .logo{
+        margin-bottom: 0;
+    }
+
+    .header__inner{
+        min-height: auto;
+    }
+
+}
+
+@media(max-width: 768px) {}
+
+@media(max-width: 480px) {}
+
+@media(max-width: 360px) {}
