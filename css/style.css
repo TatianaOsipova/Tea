@@ -88,7 +88,7 @@ body {
     background-image: url(..//images/top.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: bottom center;
+    background-position: bottom left;
 }
 
 .top__inner {
@@ -205,6 +205,7 @@ body {
 
     .top__title {
         font-size: 40px;
+        line-height: normal;
     }
 
     .blockquote__text {
@@ -213,11 +214,50 @@ body {
         margin-top: 60px;
         margin-bottom: 60px;
     }
-
-
-
 }
 
-@media(max-width: 480px) {}
+@media(max-width: 480px) {
+    .logo{
+        margin-right: 80px;
+    }
 
-@media(max-width: 360px) {}
+    .logo img{
+        width: 39px;
+    }
+    
+}
+
+@media(max-width: 360px) {
+    .logo{
+        margin-right: 50px;
+    }
+
+    .user-actions__item-search{
+        margin-left: 0;
+    }
+
+    .header__inner{
+        padding: 10px 0;
+    }
+
+    .top__title{
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .top__text{
+        font-size: 13px;
+        margin-bottom: 30px;
+    }
+
+    .top__inner{
+        min-height: 367px;
+    }
+
+    .blockquote__text{
+        max-width: 340px;
+        margin-top: 70px;
+        margin-bottom: 80px;
+    }
+
+}
