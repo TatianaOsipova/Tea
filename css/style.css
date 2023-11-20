@@ -153,8 +153,28 @@ body {
     text-align: center;
 }
 
+/* section assortment */
+
 .assortment{
     margin-bottom: 150px;
+}
+
+.assortment__list{
+    text-align: center;
+    display: flex;
+    gap: 0 40px;
+    flex-wrap: wrap;
+}
+
+.assortment__img{
+    width: 208px;
+    height: 208px;
+}
+
+.assortment__name{
+    padding-top: 10px;
+    font-size: 24px;
+    font-weight: 400;
 }
 
 
