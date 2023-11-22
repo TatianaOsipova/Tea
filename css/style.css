@@ -353,6 +353,11 @@ body {
         width: 360px;
     }
 
+    .assortment{
+        margin-bottom: 60px;
+    }
+
+
 }
 
 @media(max-width: 360px) {
@@ -385,6 +390,10 @@ body {
     .blockquote__text {
         max-width: 340px;
         margin-top: 70px;
+        margin-bottom: 80px;
+    }
+
+    .assortment{
         margin-bottom: 80px;
     }
 
