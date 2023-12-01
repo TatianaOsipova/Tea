@@ -347,7 +347,6 @@ body {
 
 .mailing-list__label {
     margin-top: 16px;
-
 }
 
 .checkbox {
@@ -377,7 +376,31 @@ body {
     left: 1px;
 }
 
+/* section prioritise */
 
+.prioritise{
+    padding: 150px 0;
+
+}
+.prioritise__list{
+    text-align: center;
+    display: flex;
+    gap: 30px 49px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.prioritise__title{
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-weight: 300;
+}
+
+.prioritise__text{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
 
 
 
