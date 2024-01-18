@@ -428,6 +428,21 @@ body {
     margin-bottom: 20px;
 }
 
+.footer__blockquote-text{
+    margin-top: 80px;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.footer__blockquote-author{
+    font-size: 12px;
+    font-style: normal;
+}
+
+.footer__blockquote-author span{
+     
+}
+
 .footer__bottom{
     display: flex;
 }
