@@ -947,6 +947,25 @@ body {
     .prioritise {
         padding: 60px 0;
     }
+
+    .footer__products{
+        margin-right: 10px;
+    }
+
+    .footer__company{
+        padding-right: 15px;
+        margin-right: 0;
+    }
+
+    .footer__nav{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .footer__social{
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 @media(max-width: 360px) {
@@ -1048,25 +1067,6 @@ body {
 
     .prioritise__list {
         gap: 40px 100px;
-    }
-
-    .footer__products{
-        margin-right: 10px;
-    }
-
-    .footer__company{
-        padding-right: 15px;
-        margin-right: 0;
-    }
-
-    .footer__nav{
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .footer__social{
-        margin-left: auto;
-        margin-right: auto;
-    }
+    }    
     
 }
