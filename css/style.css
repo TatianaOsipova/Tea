@@ -800,6 +800,68 @@ body {
         margin-left: 0;
     }
 
+    .footer{
+        padding: 50px 0 10px;
+    }
+
+    .footer__inner{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .footer__products{
+        margin-right: auto;
+        padding-right: 20px;
+    }
+
+    .footer__company{
+        padding-right: 20px;
+        margin-right: 55px;
+    }
+
+    .footer__blockquote{
+        width: 100%;
+        margin-top: 50px;
+        
+    }
+    .footer__blockquote-text{
+        margin-bottom: 10px;
+    }
+
+    .footer__contacts{
+        margin-top: 50px;
+        width: 100%;
+
+    }    
+    .footer__contacts-title{
+       margin-bottom: 20px; 
+    }
+    .footer__contacts-text{
+        text-align: center;
+    }
+    .footer__nav{
+        flex-wrap: nowrap;
+
+    }
+    .footer__social{
+        margin-left: 30px;
+    }
+
+    .footer__copy {
+        margin-right:auto;
+    }
+a
+    .footer__contacts-title{
+        text-align: center;
+    }
+
+    .footer__products-title,
+    .footer__company-title{
+        margin-bottom: 30px;
+    }
+
+    
+
 
 }
 
